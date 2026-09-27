@@ -1,8 +1,14 @@
 marks = []
 
 for i in range(1, 6):
-    mark = float(input(f"Enter marks for subject {i}: "))
-    marks.append(mark)
+    while True:
+        mark = float(input(f"Enter marks for subject {i}: "))
+
+        if 0 <= mark <= 100:
+            marks.append(mark)
+            break
+        else:
+            print("Please enter marks between 0 and 100.")
 
 total = sum(marks)
 percentage = total / 5
