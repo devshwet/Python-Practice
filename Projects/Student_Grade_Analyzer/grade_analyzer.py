@@ -1,3 +1,5 @@
+name = input("Enter student name: ")
+
 marks = []
 
 for i in range(1, 6):
@@ -29,6 +31,7 @@ else:
 status = "Pass" if percentage >= 40 else "Fail"
 
 print("\n----- Result -----")
+print("Student:", name)
 print("Total:", total, "/ 500")
 print("Percentage:", percentage, "%")
 print("Grade:", grade)
