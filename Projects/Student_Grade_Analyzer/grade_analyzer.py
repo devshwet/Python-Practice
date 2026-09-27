@@ -1,12 +1,16 @@
 name = input("Enter student name: ")
 
+subjects = []
 marks = []
 
 for i in range(1, 6):
+    subject = input(f"Enter subject {i} name: ")
+
     while True:
-        mark = float(input(f"Enter marks for subject {i}: "))
+        mark = float(input(f"Enter marks for {subject}: "))
 
         if 0 <= mark <= 100:
+            subjects.append(subject)
             marks.append(mark)
             break
         else:
@@ -32,6 +36,10 @@ status = "Pass" if percentage >= 40 else "Fail"
 
 print("\n----- Result -----")
 print("Student:", name)
+
+for i in range(5):
+    print(subjects[i] + ":", marks[i])
+
 print("Total:", total, "/ 500")
 print("Percentage:", percentage, "%")
 print("Grade:", grade)
