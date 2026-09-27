@@ -1,22 +1,42 @@
 # Python Practice
 
-A collection of Python programs and problem-solving exercises created while learning Python.
+A collection of Python programs created while learning programming fundamentals and problem-solving.
 
 ## Topics Covered
 
-- Basic Python syntax
+### Basics
 - Variables and data types
-- Conditional statements
-- Loops
-- Functions
-- Lists, tuples, sets and dictionaries
-- File handling
-- Problem-solving exercises
+- Input and output
+- Operators
+
+### Conditional Statements
+- If-else
+- Elif
+- Even or odd
+
+### Loops
+- For loop
+- While loop
+- Multiplication table
+- Sum of numbers
+
+### Functions
+- Calculator using functions
+- Factorial
+- Finding the largest number
+
+### Data Structures
+- Lists
+- Tuples
+- Sets
+- Dictionaries
 
 ## Purpose
 
-This repository documents my Python learning journey and provides a collection of programs for practice and revision.
+This repository documents my Python learning journey and contains programs that I use for practice, revision, and improving my problem-solving skills.
 
 ## Author
 
 Shwet Pandey
+
+BSc Computer Science Student
